@@ -8,8 +8,8 @@
     <ProjectGuid>{8C31F88F-09C1-470A-A5F2-0473D1559BEB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZFSDiskGraph</RootNamespace>
-    <AssemblyName>ZFSDiskGraph</AssemblyName>
+    <RootNamespace>ZFSDiskIOPSActivityBarChart</RootNamespace>
+    <AssemblyName>ZFSDiskIOPSActivityBarChart</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

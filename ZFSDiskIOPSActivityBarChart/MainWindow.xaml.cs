@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Linq;
 using System.Net.Sockets;
 using System.Threading;
 using System.Windows;
@@ -30,7 +31,7 @@ namespace ZFSDiskIOPSActivityBarChart
             var diskaxis = new CategoryAxis { Orientation = AxisOrientation.X };
             OutputChart.Axes.Add(diskaxis);
 
-            var iopsaxis = new LinearAxis { Minimum = 0, Maximum = 200, Orientation = AxisOrientation.Y, Title = "IOPS", ExtendRangeToOrigin = true };
+            var iopsaxis = new LinearAxis { Minimum = 0, Maximum = 50, Orientation = AxisOrientation.Y, Title = "IOPS", ExtendRangeToOrigin = true };
             OutputChart.Axes.Add(iopsaxis);
 
             readseries.IndependentValueBinding = new Binding("Key");
@@ -65,6 +66,10 @@ namespace ZFSDiskIOPSActivityBarChart
                 else
                 {
                     _writedata.Add(disk, write);
+                }
+                foreach (var linearaxis in from Axis axis in OutputChart.Axes where axis.Orientation == AxisOrientation.Y select axis as LinearAxis into linearaxis where linearaxis != null && (read > linearaxis.Maximum || write > linearaxis.Maximum) select linearaxis)
+                {
+                    linearaxis.Maximum = read > write ? read : write;
                 }
             }
             else
