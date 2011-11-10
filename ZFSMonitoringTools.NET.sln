@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZFSDiskIOPSActivityBarChart", "ZFSDiskIOPSActivityBarChart\ZFSDiskIOPSActivityBarChart.csproj", "{8C31F88F-09C1-470A-A5F2-0473D1559BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZFSSectorActivityThingie", "ZFSSectorActivityThingie\ZFSSectorActivityThingie.csproj", "{9857D5A5-3492-46EF-A106-8139C19A122C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Debug|x86.ActiveCfg = Debug|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Debug|x86.Build.0 = Debug|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Release|Any CPU.ActiveCfg = Release|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Release|x86.ActiveCfg = Release|x86
+		{8C31F88F-09C1-470A-A5F2-0473D1559BEB}.Release|x86.Build.0 = Release|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Debug|x86.ActiveCfg = Debug|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Debug|x86.Build.0 = Debug|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Release|Any CPU.ActiveCfg = Release|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Release|x86.ActiveCfg = Release|x86
+		{9857D5A5-3492-46EF-A106-8139C19A122C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
